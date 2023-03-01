@@ -1,0 +1,485 @@
+    
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;200;300;400;500;600&display=swap');
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans' ;
+    margin: 0;
+    padding:0;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* MENU */
+.contenedor1 {
+    background:rgba(3, 0, 0, 0.862) ;
+    position: fixed;
+    width: 100%;
+    top:0;
+    left: 0;
+    z-index: 99;
+}
+.contenedor1 header {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+.contenedor1 header .logo a{
+    font-family: 'Righteous';
+    font-size: 30px;
+    color: rgb(255, 98, 0);
+    text-decoration: none;
+}
+.contenedor1 header ul{
+    display: flex;
+    list-style: none;
+
+}
+.contenedor1 header nav ul li a{
+    text-align: none;
+    color: azure;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s ;
+    text-decoration:none ;
+
+}
+.contenedor1 header nav ul li a:hover {
+    color: orangered
+     
+}
+.nav-responsive {
+    background-color: brown;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}
+.inicio{
+  background: 
+    linear-gradient(rgba(3, 0, 0, 0.862),rgb(250, 133, 8)),
+    url(fondo.png);
+    background-size: cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.inicio .contenido-banner {
+    padding: 20px;
+    background-color: black;
+    max-width: 350px;
+    margin: auto;
+    text-align: center;
+    border-radius: 40px;
+}
+.inicio .contenido-banner img{
+    margin: 400px;
+    border: 10px solid white;
+    display: block;
+    width: 80%;
+    margin: auto;
+    border-radius: 100%;
+}
+.inicio .contenido-banner h1 {
+    margin-top: 40px;
+    font-size: 42px;
+    font-family: 'Righteous';
+}
+.inicio .contenido-banner h2 {
+    font-size: 15px;
+    font-weight: normal;
+}
+.inicio .contenido-banner .redes a{
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height:42px ;
+    margin: 40px 5px;
+    transition: .3s
+
+}
+.inicio .contenido-banner .redes a:hover {
+    background-color: orange;
+}
+
+.DatosAptitudes {
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    padding: 50px 20px;
+    
+   
+}
+.DatosAptitudes .contenido-sobremi {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.DatosAptitudes .contenido-sobremi h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+}
+
+.DatosAptitudes .contenido-sobremi p {
+    font: 18px;
+    line min-height: 22px;
+    margin-bottom: 20px;
+    color: rgb(255, 115, 0);
+    font-weight: bold;
+    text-align: center;
+    
+}
+.DatosAptitudes .fila {
+    display: flex;
+      
+}
+.DatosAptitudes .fila .listaDatos{
+    width: 50%;
+    margin: auto;
+}
+.DatosAptitudes .fila .listaDatos h3{
+    font-size: 20px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    text-align: center;
+    
+}
+.DatosAptitudes .fila .listaDatos ul{
+    list-style: none;
+    text-align: center;
+}
+.DatosAptitudes .fila .listaDatos ul li{
+     margin: 12px 0;
+}
+.DatosAptitudes .fila .listaDatos ul li span{
+    color:rgb(255, 213, 1);
+    width: 130px; 
+    margin: 0px;
+    text-align: center;
+}
+
+.DatosAptitudes .filaAP {
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    padding: 50px 20px;
+   
+}
+
+.DatosAptitudes .filaAP .contenido-aptitudes {
+    width: 50%;
+    margin: auto;
+}
+
+.DatosAptitudes .filaAP .contenido-aptitudes h4 {
+    font-size: 20px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    text-align: center;
+    
+     
+}
+.DatosAptitudes .filaAP .contenido-aptitudes ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+   
+.DatosAptitudes .filaAP .contenido-aptitudes ul li {
+    color: white;
+    width: 1000px; 
+    height: 80px;
+    background-color: orange;
+    border-radius:  100px;
+    margin: 0 15px 15px 0;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    transition: .3s;
+    
+}
+.DatosAptitudes .filaAP .contenido-aptitudes ul li span{
+    font-size:30px ;
+    font-weight: bold;
+}
+.DatosAptitudes .filaAP .contenido-aptitudes i{
+    font-size: 20px;
+    margin: 10px;
+    align-items:center;
+}
+
+.habilidades button a {
+    color:white;
+    font-weight: bold;
+    text-decoration: none;
+}
+.habilidades button {
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid white;
+    display: block;
+    margin: 20px auto;
+    padding: 10px 22px;
+    font-size: 16px;
+    color:white;
+    position: relative;
+    z-index: 10;
+}
+.habilidades button .descargar {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: orangered;
+    z-index:-1;
+    transition: 1s;
+}
+.habilidades button:hover .descargar{
+    width: 100%;
+}
+/* Experiencia */
+.experiencia{
+    background-color: black;
+    color:#fff;
+    padding: 50px 20px;
+}
+.experiencia .contenido-exp {
+    max-width: 1100px;
+    margin: auto;
+}
+.experiencia h2 {
+    font-size: 88px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;
+
+}
+.experiencia .fila{ 
+    display: flex;
+}
+
+ .experiencia .fila .col{
+    width: 49%;
+    padding: 0px;
+    
+ }
+ .experiencia .contenido-exp .fila .col h3{
+   font-size: 28px;
+    font-family: 'Righteous';
+    margin-bottom: 25px;
+    margin-left:10px
+ }
+.experiencia .contenido-exp .fila .izq {
+        border-right: 2px solid black;
+}
+
+.experiencia .contenido-exp .fila .derecha {
+    border-left: 2px solid black;}
+
+.experiencia .contenido-exp .fila .item {
+    padding: 25px;
+    margin-bottom: 10px;
+    background-color: rgb(49, 47, 47);
+    position:relative
+
+}
+.experiencia .contenido-exp .fila .item h4 {
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-weight:bold ;
+        display: block;
+        color:orange;
+}
+
+.experiencia .contenido-exp .fila .izq{
+    border-left: 2px solid yellow;
+    margin-left: 20px;
+}
+.experiencia .contenido-exp .fila .derecha{
+    border-left: 2px solid yellow;
+    margin-left: 20px;
+}
+/*skills*/
+.habilidades {
+    background-color: rgb(31, 31, 31);
+    color: #fff;
+    padding: 50px 20px;
+   
+}
+.habilidades  {
+    background-color: #000;
+    color: #fff;
+    padding: 50px 20px;
+    
+}
+.habilidades .contenido-seccion{
+     max-width: 1100px;
+    margin: auto;
+    align-items: center;
+}
+
+.habilidades  h2{
+    font-size: 48px;
+    font-family: 'Righteous';
+    text-align: center;
+    padding: 20px 0;}
+
+.habilidades .fila{
+    display: block;
+    
+}
+.habilidades .fila .col {
+    align-items: center;
+   
+}
+.habilidades .fila span{
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    
+}
+
+.habilidades .skill .barra-skill{
+  
+    height: 10px;
+    width: 90%;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    margin-bottom: 30px;
+    
+}
+.habilidades .skill .progreso{
+    background-color:orangered ;
+    position: absolute;
+    top:0;
+    left:0;
+    height: 8px;
+
+    
+}
+.habilidades .skill .barra-skill span {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background-color: orange;
+    border-radius: 50px;
+    line-height: 40px;
+    text-align: center;
+    top: -17px;
+    right: -15px;
+    font-size: 14px;
+    margin: 5px;}
+
+.habilidades .skill .javascript .progreso80{ 
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes javascript {
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.habilidades .skill .javascript{
+    width: 0%;
+    animation: 2s javascript forwards;
+}
+@keyframes  javascript {
+    0%{width: 0%;}
+    100%{width: 95%;}
+}
+footer{
+    background-color: rgb(26, 25, 25);
+    color: #fff;
+    padding: 50px 0 30px 0;
+    text-align: center;
+    position: relative;
+    width: 100%;
+}
+footer .redes {
+    margin-bottom: 20px;
+
+}
+
+footer .redes a { 
+    color: white;
+    display: inline-block;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height:42px ;
+    margin: 40px 5px;
+    transition: .3s
+
+}
+footer .arriba{
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 139, 6);
+    color: #ffffff;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top:-25px;
+    border-radius: 50%;
+    line-height: 50px;
+    font-size: 18px;
+} 
+footer .up {
+    color: #fff;
+}
+/* responsive */
+@media screen and (max-width:980px) {
+    nav{
+        display: none;
+    }
+    .nav-responsive{
+        display: block;
+    }
+    nav.responsive{
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        background-color: #000;
+        width: 180px;
+    }
+    nav.responsive ul {
+        display: block !important;
+    }
+    nav.responsive ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+@media screen and (max-width:700px) {
+    .DatosAptitudes .fila .filaAP {
+        display: block;
+    }
+    .habilidades .fila {
+        display: block;
+    }
+    .habilidades .fila .col {
+        width: 100%;
+    }
+    .habilidades .fila .col .barra-skill{
+        width: 100%;
+    }
+   .experiencia .fila .col {
+    width: 90%;
+}
+    .experiencia .fila .derecha{
+        margin-left: 20px;
+    }
+}
