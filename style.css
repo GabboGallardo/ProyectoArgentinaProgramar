@@ -467,6 +467,10 @@ footer .up {
     .DatosAptitudes .fila .filaAP {
         display: block;
     }
+    .DatosAptitudes .ul .li .a {
+       font-size:10px;
+    }
+    
     .habilidades .fila {
         display: block;
     }
@@ -478,7 +482,7 @@ footer .up {
     }
    .experiencia .fila .col {
     width: 90%;
-    font-size: 20px;
+    
 }
     .experiencia .fila .derecha{
         margin-left: 20px;
